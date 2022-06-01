@@ -8,14 +8,18 @@ setInterval(() => {
 
   const $confirmMove = document.querySelector('div[aria-label="Move"][role="button"][tabindex="0"] span');
   const $confirmDelete = document.querySelector('div[aria-label="Delete"][role="button"][tabindex="0"] span');
+  const $OK = document.querySelector('div[aria-label="OK"][role="button"][tabindex="0"] span');
  
-  if ($confirmDelete || $confirmMove) {
+  if ($confirmDelete || $confirmMove || $OK) {
     if ($confirmDelete) {
       $confirmDelete.click();
     }
     if ($confirmMove) {
       $confirmMove.click();
     }
+    if ($OK) {
+    	$OK.click();
+  	}
   }
   else if ($delete || $trash || $removeTag || $hide) {
     if ($delete) {
