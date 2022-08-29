@@ -10,3 +10,9 @@ Do not blindly run JavaScript commands without understanding what they do first!
 3. Paste the script.
 4. Read and understand the script *before* you run it. 
 5. Run it.
+
+## Alternatives
+My approach to this problem isn't very effective at scale. It's slow, and sometimes gets blocked by UI bugs. 
+
+Here's an alternative to try:
+- https://github.com/marcelja/facebook-delete
